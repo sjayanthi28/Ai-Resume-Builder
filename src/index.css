@@ -1,0 +1,117 @@
+.landing-container{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background:#f9fafb;
+}
+
+.badge{
+  letter-spacing:3px;
+  font-size:12px;
+  color:gray;
+}
+
+.title{
+  font-size:48px;
+  margin:10px 0;
+}
+
+.highlight{
+  color:#94a3b8;
+}
+
+.description{
+  max-width:500px;
+  color:gray;
+}
+
+.start-btn{
+  margin-top:25px;
+  padding:12px 25px;
+  background:#111827;
+  color:white;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+.home-container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top:50px;
+}
+
+.resume-options{
+  display:flex;
+  gap:30px;
+  margin-top:30px;
+}
+
+.resume-card{
+  width:150px;
+  height:120px;
+  border:2px solid #4f46e5;
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+}
+.builder-container{
+  padding:40px;
+}
+
+.stats-card{
+  border:1px solid #ddd;
+  border-radius:10px;
+  padding:20px;
+  margin-bottom:30px;
+}
+
+.score{
+  font-size:28px;
+  font-weight:bold;
+}
+
+.progress-bar{
+  width:100%;
+  height:8px;
+  background:#eee;
+  border-radius:10px;
+  margin:10px 0;
+}
+
+.progress{
+  width:75%;
+  height:100%;
+  background:green;
+  border-radius:10px;
+}
+
+.status{
+  color:green;
+}
+
+.form-section{
+  border:1px solid #ddd;
+  border-radius:10px;
+  padding:20px;
+}
+
+.form-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:15px;
+  margin-top:15px;
+}
+
+.form-grid input{
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:6px;
+}
