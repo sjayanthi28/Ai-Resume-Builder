@@ -1,4 +1,6 @@
 import StatsProgress from "../components/ui/StatsProgress";
+import PersonalInfo from "../components/builder/PersonalInfo";
+import Education from "../components/builder/Education";
 
 function BuilderPage() {
   return (
@@ -6,25 +8,13 @@ function BuilderPage() {
 
       <h2>Workspace</h2>
 
-    
-      <StatsProgress score={89}/>
-
+      <StatsProgress score={89} />
 
       <div className="form-section">
-
-        <h3>Personal Info</h3>
-
-        <div className="form-grid">
-
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email" />
-
-          <input type="text" placeholder="Phone" />
-          <input type="text" placeholder="Location" />
-
-        </div>
-
+        <PersonalInfo />
       </div>
+
+      <Education />
 
     </div>
   );
